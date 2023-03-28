@@ -6,7 +6,7 @@ with
             "CUSTOMER_NAME" as first_name,
             "CUSTOMER_NAME" as last_name
 
-        from analytics.dbt_rrg.customers
+        from {{source('dbt_rrg','customers')}}
     )
 
 select *
