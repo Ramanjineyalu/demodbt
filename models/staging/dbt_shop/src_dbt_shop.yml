@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: dbt_rrg
+    description:  a clone of a snowflake application datatbase
     database: analytics
     schema: dbt_rrg
     tables:
